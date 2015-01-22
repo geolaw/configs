@@ -1,0 +1,32 @@
+#avoid flicker
+double_buffer yes
+
+own_window yes
+own_window_type panel
+own_window_transparent yes
+#own_window_hints undecorate,sticky,skip_taskbar,skip_pager,above
+
+#position
+gap_x 100
+gap_y 0
+alignment top_left
+
+#behaviour
+update_interval 3
+
+#colour
+#own_window_colour 262626
+
+#font
+use_xft yes
+xftfont bauhaus:pixelsize=10
+
+minimum_size 775
+maximum_width 775
+
+double_buffer yes#
+default_color F2F5A9
+color1 FFFFFF
+use_spacer right
+TEXT
+${color}UPTIME: ${color1}$uptime ${color}CPU: ${color1}${cpu cpu0}% - ${freq}MHz - ${acpitemp} deg.  ${color}RAM: ${color1}${mem} - $memperc% ${color}SWAP: ${color1}${swapmax} - $swapperc% DOWNLOAD: ${downspeed} ${alignr}${cpugraph 14,100 ffffff ff0000}
