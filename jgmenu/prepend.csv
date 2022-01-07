@@ -1,0 +1,9 @@
+Terminal,terminator,utilities-terminal
+Firefox,firefox,firefox
+Chromium,chromium,chromium
+File manager root,sudo -i caja,system-file-manager
+File manager,/usr/bin/caja --no-desktop --browser,system-file-manager
+Geany,geany,geany
+Gedit,gedit,gedit
+GiMP,gimp,gimp
+^sep()
